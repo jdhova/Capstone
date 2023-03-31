@@ -2237,3 +2237,5 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
                 ('normalize', TransformerWrapper(transformer=StandardScaler())),
                 ('actual_estimator', LGBMRegressor(random_state=1807))])
 2023-03-31 18:22:10,576:INFO:save_model() successfully completed......................................
+2023-03-31 18:26:02,193:INFO:Initializing load_model()
+2023-03-31 18:26:02,193:INFO:load_model(model_name=./models/housing_lightgbm, platform=None, authentication=None, verbose=True)
