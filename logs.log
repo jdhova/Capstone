@@ -1875,3 +1875,307 @@ ValueError: feature_names must be string, and may not contain [, ] or <
 2023-03-31 17:38:37,197:INFO:_display_container: 4
 2023-03-31 17:38:37,199:INFO:LGBMRegressor(random_state=1807)
 2023-03-31 17:38:37,200:INFO:create_model() successfully completed......................................
+2023-03-31 18:04:16,813:INFO:Initializing tune_model()
+2023-03-31 18:04:16,813:INFO:tune_model(estimator=LGBMRegressor(random_state=1807), fold=None, round=4, n_iter=10, custom_grid=None, optimize=R2, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>)
+2023-03-31 18:04:16,813:INFO:Checking exceptions
+2023-03-31 18:04:16,848:INFO:Copying training dataset
+2023-03-31 18:04:16,857:INFO:Checking base model
+2023-03-31 18:04:16,857:INFO:Base model : Light Gradient Boosting Machine
+2023-03-31 18:04:16,865:INFO:Declaring metric variables
+2023-03-31 18:04:16,873:INFO:Defining Hyperparameters
+2023-03-31 18:04:17,059:INFO:Tuning with n_jobs=-1
+2023-03-31 18:04:17,059:INFO:Initializing RandomizedSearchCV
+2023-03-31 18:05:56,552:INFO:best_params: {'actual_estimator__reg_lambda': 0.3, 'actual_estimator__reg_alpha': 0.4, 'actual_estimator__num_leaves': 20, 'actual_estimator__n_estimators': 270, 'actual_estimator__min_split_gain': 0.9, 'actual_estimator__min_child_samples': 86, 'actual_estimator__learning_rate': 0.2, 'actual_estimator__feature_fraction': 1.0, 'actual_estimator__bagging_freq': 2, 'actual_estimator__bagging_fraction': 0.4}
+2023-03-31 18:05:56,552:INFO:Hyperparameter search completed
+2023-03-31 18:05:56,552:INFO:SubProcess create_model() called ==================================
+2023-03-31 18:05:56,552:INFO:Initializing create_model()
+2023-03-31 18:05:56,552:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F9B474F760>, model_only=True, return_train_score=False, kwargs={'reg_lambda': 0.3, 'reg_alpha': 0.4, 'num_leaves': 20, 'n_estimators': 270, 'min_split_gain': 0.9, 'min_child_samples': 86, 'learning_rate': 0.2, 'feature_fraction': 1.0, 'bagging_freq': 2, 'bagging_fraction': 0.4})
+2023-03-31 18:05:56,552:INFO:Checking exceptions
+2023-03-31 18:05:56,552:INFO:Importing libraries
+2023-03-31 18:05:56,552:INFO:Copying training dataset
+2023-03-31 18:05:56,560:INFO:Defining folds
+2023-03-31 18:05:56,560:INFO:Declaring metric variables
+2023-03-31 18:05:56,569:INFO:Importing untrained model
+2023-03-31 18:05:56,569:INFO:Declaring custom model
+2023-03-31 18:05:56,576:INFO:Light Gradient Boosting Machine Imported successfully
+2023-03-31 18:05:56,585:INFO:Starting cross validation
+2023-03-31 18:05:56,589:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-03-31 18:06:03,904:INFO:Calculating mean and std
+2023-03-31 18:06:03,909:INFO:Creating metrics dataframe
+2023-03-31 18:06:03,917:INFO:Finalizing model
+2023-03-31 18:06:05,514:INFO:Uploading results into container
+2023-03-31 18:06:05,514:INFO:Uploading model into container now
+2023-03-31 18:06:05,514:INFO:_master_model_container: 22
+2023-03-31 18:06:05,517:INFO:_display_container: 5
+2023-03-31 18:06:05,517:INFO:LGBMRegressor(bagging_fraction=0.4, bagging_freq=2, feature_fraction=1.0,
+              learning_rate=0.2, min_child_samples=86, min_split_gain=0.9,
+              n_estimators=270, num_leaves=20, random_state=1807, reg_alpha=0.4,
+              reg_lambda=0.3)
+2023-03-31 18:06:05,517:INFO:create_model() successfully completed......................................
+2023-03-31 18:06:05,659:INFO:SubProcess create_model() end ==================================
+2023-03-31 18:06:05,659:INFO:choose_better activated
+2023-03-31 18:06:05,668:INFO:SubProcess create_model() called ==================================
+2023-03-31 18:06:05,668:INFO:Initializing create_model()
+2023-03-31 18:06:05,668:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-03-31 18:06:05,668:INFO:Checking exceptions
+2023-03-31 18:06:05,668:INFO:Importing libraries
+2023-03-31 18:06:05,668:INFO:Copying training dataset
+2023-03-31 18:06:05,688:INFO:Defining folds
+2023-03-31 18:06:05,688:INFO:Declaring metric variables
+2023-03-31 18:06:05,688:INFO:Importing untrained model
+2023-03-31 18:06:05,688:INFO:Declaring custom model
+2023-03-31 18:06:05,692:INFO:Light Gradient Boosting Machine Imported successfully
+2023-03-31 18:06:05,692:INFO:Starting cross validation
+2023-03-31 18:06:05,692:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-03-31 18:06:13,012:INFO:Calculating mean and std
+2023-03-31 18:06:13,012:INFO:Creating metrics dataframe
+2023-03-31 18:06:13,020:INFO:Finalizing model
+2023-03-31 18:06:14,508:INFO:Uploading results into container
+2023-03-31 18:06:14,508:INFO:Uploading model into container now
+2023-03-31 18:06:14,508:INFO:_master_model_container: 23
+2023-03-31 18:06:14,508:INFO:_display_container: 6
+2023-03-31 18:06:14,508:INFO:LGBMRegressor(random_state=1807)
+2023-03-31 18:06:14,508:INFO:create_model() successfully completed......................................
+2023-03-31 18:06:14,652:INFO:SubProcess create_model() end ==================================
+2023-03-31 18:06:14,652:INFO:LGBMRegressor(random_state=1807) result for R2 is 0.8278
+2023-03-31 18:06:14,652:INFO:LGBMRegressor(bagging_fraction=0.4, bagging_freq=2, feature_fraction=1.0,
+              learning_rate=0.2, min_child_samples=86, min_split_gain=0.9,
+              n_estimators=270, num_leaves=20, random_state=1807, reg_alpha=0.4,
+              reg_lambda=0.3) result for R2 is 0.8209
+2023-03-31 18:06:14,652:INFO:LGBMRegressor(random_state=1807) is best model
+2023-03-31 18:06:14,652:INFO:choose_better completed
+2023-03-31 18:06:14,652:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2023-03-31 18:06:14,677:INFO:_master_model_container: 23
+2023-03-31 18:06:14,677:INFO:_display_container: 5
+2023-03-31 18:06:14,685:INFO:LGBMRegressor(random_state=1807)
+2023-03-31 18:06:14,685:INFO:tune_model() successfully completed......................................
+2023-03-31 18:07:14,344:INFO:Initializing tune_model()
+2023-03-31 18:07:14,344:INFO:tune_model(estimator=LGBMRegressor(random_state=1807), fold=15, round=4, n_iter=10, custom_grid=None, optimize=R2, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>)
+2023-03-31 18:07:14,344:INFO:Checking exceptions
+2023-03-31 18:07:14,386:INFO:Copying training dataset
+2023-03-31 18:07:14,393:INFO:Checking base model
+2023-03-31 18:07:14,393:INFO:Base model : Light Gradient Boosting Machine
+2023-03-31 18:07:14,398:INFO:Declaring metric variables
+2023-03-31 18:07:14,406:INFO:Defining Hyperparameters
+2023-03-31 18:07:14,575:INFO:Tuning with n_jobs=-1
+2023-03-31 18:07:14,575:INFO:Initializing RandomizedSearchCV
+2023-03-31 18:09:33,680:INFO:best_params: {'actual_estimator__reg_lambda': 0.3, 'actual_estimator__reg_alpha': 0.4, 'actual_estimator__num_leaves': 20, 'actual_estimator__n_estimators': 270, 'actual_estimator__min_split_gain': 0.9, 'actual_estimator__min_child_samples': 86, 'actual_estimator__learning_rate': 0.2, 'actual_estimator__feature_fraction': 1.0, 'actual_estimator__bagging_freq': 2, 'actual_estimator__bagging_fraction': 0.4}
+2023-03-31 18:09:33,680:INFO:Hyperparameter search completed
+2023-03-31 18:09:33,680:INFO:SubProcess create_model() called ==================================
+2023-03-31 18:09:33,680:INFO:Initializing create_model()
+2023-03-31 18:09:33,680:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fold=KFold(n_splits=15, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F9E0D90370>, model_only=True, return_train_score=False, kwargs={'reg_lambda': 0.3, 'reg_alpha': 0.4, 'num_leaves': 20, 'n_estimators': 270, 'min_split_gain': 0.9, 'min_child_samples': 86, 'learning_rate': 0.2, 'feature_fraction': 1.0, 'bagging_freq': 2, 'bagging_fraction': 0.4})
+2023-03-31 18:09:33,680:INFO:Checking exceptions
+2023-03-31 18:09:33,680:INFO:Importing libraries
+2023-03-31 18:09:33,680:INFO:Copying training dataset
+2023-03-31 18:09:33,689:INFO:Defining folds
+2023-03-31 18:09:33,689:INFO:Declaring metric variables
+2023-03-31 18:09:33,693:INFO:Importing untrained model
+2023-03-31 18:09:33,693:INFO:Declaring custom model
+2023-03-31 18:09:33,700:INFO:Light Gradient Boosting Machine Imported successfully
+2023-03-31 18:09:33,706:INFO:Starting cross validation
+2023-03-31 18:09:33,713:INFO:Cross validating with KFold(n_splits=15, random_state=None, shuffle=False), n_jobs=-1
+2023-03-31 18:09:51,008:INFO:Calculating mean and std
+2023-03-31 18:09:51,013:INFO:Creating metrics dataframe
+2023-03-31 18:09:51,034:INFO:Finalizing model
+2023-03-31 18:09:53,608:INFO:Uploading results into container
+2023-03-31 18:09:53,608:INFO:Uploading model into container now
+2023-03-31 18:09:53,608:INFO:_master_model_container: 24
+2023-03-31 18:09:53,608:INFO:_display_container: 6
+2023-03-31 18:09:53,608:INFO:LGBMRegressor(bagging_fraction=0.4, bagging_freq=2, feature_fraction=1.0,
+              learning_rate=0.2, min_child_samples=86, min_split_gain=0.9,
+              n_estimators=270, num_leaves=20, random_state=1807, reg_alpha=0.4,
+              reg_lambda=0.3)
+2023-03-31 18:09:53,616:INFO:create_model() successfully completed......................................
+2023-03-31 18:09:53,811:INFO:SubProcess create_model() end ==================================
+2023-03-31 18:09:53,811:INFO:choose_better activated
+2023-03-31 18:09:53,817:INFO:SubProcess create_model() called ==================================
+2023-03-31 18:09:53,823:INFO:Initializing create_model()
+2023-03-31 18:09:53,823:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fold=KFold(n_splits=15, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-03-31 18:09:53,823:INFO:Checking exceptions
+2023-03-31 18:09:53,823:INFO:Importing libraries
+2023-03-31 18:09:53,823:INFO:Copying training dataset
+2023-03-31 18:09:53,844:INFO:Defining folds
+2023-03-31 18:09:53,844:INFO:Declaring metric variables
+2023-03-31 18:09:53,844:INFO:Importing untrained model
+2023-03-31 18:09:53,844:INFO:Declaring custom model
+2023-03-31 18:09:53,844:INFO:Light Gradient Boosting Machine Imported successfully
+2023-03-31 18:09:53,844:INFO:Starting cross validation
+2023-03-31 18:09:53,854:INFO:Cross validating with KFold(n_splits=15, random_state=None, shuffle=False), n_jobs=-1
+2023-03-31 18:10:21,345:INFO:Calculating mean and std
+2023-03-31 18:10:21,345:INFO:Creating metrics dataframe
+2023-03-31 18:10:21,347:INFO:Finalizing model
+2023-03-31 18:10:24,250:INFO:Uploading results into container
+2023-03-31 18:10:24,250:INFO:Uploading model into container now
+2023-03-31 18:10:24,250:INFO:_master_model_container: 25
+2023-03-31 18:10:24,250:INFO:_display_container: 7
+2023-03-31 18:10:24,255:INFO:LGBMRegressor(random_state=1807)
+2023-03-31 18:10:24,255:INFO:create_model() successfully completed......................................
+2023-03-31 18:10:24,494:INFO:SubProcess create_model() end ==================================
+2023-03-31 18:10:24,494:INFO:LGBMRegressor(random_state=1807) result for R2 is 0.8288
+2023-03-31 18:10:24,496:INFO:LGBMRegressor(bagging_fraction=0.4, bagging_freq=2, feature_fraction=1.0,
+              learning_rate=0.2, min_child_samples=86, min_split_gain=0.9,
+              n_estimators=270, num_leaves=20, random_state=1807, reg_alpha=0.4,
+              reg_lambda=0.3) result for R2 is 0.8213
+2023-03-31 18:10:24,499:INFO:LGBMRegressor(random_state=1807) is best model
+2023-03-31 18:10:24,499:INFO:choose_better completed
+2023-03-31 18:10:24,499:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2023-03-31 18:10:24,518:INFO:_master_model_container: 25
+2023-03-31 18:10:24,518:INFO:_display_container: 6
+2023-03-31 18:10:24,518:INFO:LGBMRegressor(random_state=1807)
+2023-03-31 18:10:24,518:INFO:tune_model() successfully completed......................................
+2023-03-31 18:11:44,842:INFO:Initializing tune_model()
+2023-03-31 18:11:44,842:INFO:tune_model(estimator=LGBMRegressor(random_state=1807), fold=15, round=4, n_iter=10, custom_grid=None, optimize=R2, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>)
+2023-03-31 18:11:44,842:INFO:Checking exceptions
+2023-03-31 18:11:44,875:INFO:Copying training dataset
+2023-03-31 18:11:44,888:INFO:Checking base model
+2023-03-31 18:11:44,888:INFO:Base model : Light Gradient Boosting Machine
+2023-03-31 18:11:44,894:INFO:Declaring metric variables
+2023-03-31 18:11:44,901:INFO:Defining Hyperparameters
+2023-03-31 18:11:45,118:INFO:Tuning with n_jobs=-1
+2023-03-31 18:11:45,118:INFO:Initializing RandomizedSearchCV
+2023-03-31 18:12:20,718:WARNING:c:\Users\juud0\miniconda3\envs\pc30\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.53s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-03-31 18:12:22,648:WARNING:c:\Users\juud0\miniconda3\envs\pc30\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.54s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-03-31 18:12:40,424:WARNING:c:\Users\juud0\miniconda3\envs\pc30\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-03-31 18:15:28,349:INFO:best_params: {'actual_estimator__reg_lambda': 0.3, 'actual_estimator__reg_alpha': 0.4, 'actual_estimator__num_leaves': 20, 'actual_estimator__n_estimators': 270, 'actual_estimator__min_split_gain': 0.9, 'actual_estimator__min_child_samples': 86, 'actual_estimator__learning_rate': 0.2, 'actual_estimator__feature_fraction': 1.0, 'actual_estimator__bagging_freq': 2, 'actual_estimator__bagging_fraction': 0.4}
+2023-03-31 18:15:28,352:INFO:Hyperparameter search completed
+2023-03-31 18:15:28,352:INFO:SubProcess create_model() called ==================================
+2023-03-31 18:15:28,352:INFO:Initializing create_model()
+2023-03-31 18:15:28,352:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fold=KFold(n_splits=15, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F9C4C01EA0>, model_only=True, return_train_score=False, kwargs={'reg_lambda': 0.3, 'reg_alpha': 0.4, 'num_leaves': 20, 'n_estimators': 270, 'min_split_gain': 0.9, 'min_child_samples': 86, 'learning_rate': 0.2, 'feature_fraction': 1.0, 'bagging_freq': 2, 'bagging_fraction': 0.4})
+2023-03-31 18:15:28,352:INFO:Checking exceptions
+2023-03-31 18:15:28,352:INFO:Importing libraries
+2023-03-31 18:15:28,352:INFO:Copying training dataset
+2023-03-31 18:15:28,361:INFO:Defining folds
+2023-03-31 18:15:28,361:INFO:Declaring metric variables
+2023-03-31 18:15:28,363:INFO:Importing untrained model
+2023-03-31 18:15:28,366:INFO:Declaring custom model
+2023-03-31 18:15:28,367:INFO:Light Gradient Boosting Machine Imported successfully
+2023-03-31 18:15:28,375:INFO:Starting cross validation
+2023-03-31 18:15:28,379:INFO:Cross validating with KFold(n_splits=15, random_state=None, shuffle=False), n_jobs=-1
+2023-03-31 18:15:40,105:INFO:Calculating mean and std
+2023-03-31 18:15:40,109:INFO:Creating metrics dataframe
+2023-03-31 18:15:40,116:INFO:Finalizing model
+2023-03-31 18:15:41,534:INFO:Uploading results into container
+2023-03-31 18:15:41,534:INFO:Uploading model into container now
+2023-03-31 18:15:41,534:INFO:_master_model_container: 26
+2023-03-31 18:15:41,534:INFO:_display_container: 7
+2023-03-31 18:15:41,534:INFO:LGBMRegressor(bagging_fraction=0.4, bagging_freq=2, feature_fraction=1.0,
+              learning_rate=0.2, min_child_samples=86, min_split_gain=0.9,
+              n_estimators=270, num_leaves=20, random_state=1807, reg_alpha=0.4,
+              reg_lambda=0.3)
+2023-03-31 18:15:41,534:INFO:create_model() successfully completed......................................
+2023-03-31 18:15:41,670:INFO:SubProcess create_model() end ==================================
+2023-03-31 18:15:41,670:INFO:choose_better activated
+2023-03-31 18:15:41,670:INFO:SubProcess create_model() called ==================================
+2023-03-31 18:15:41,677:INFO:Initializing create_model()
+2023-03-31 18:15:41,677:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fold=KFold(n_splits=15, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-03-31 18:15:41,677:INFO:Checking exceptions
+2023-03-31 18:15:41,678:INFO:Importing libraries
+2023-03-31 18:15:41,678:INFO:Copying training dataset
+2023-03-31 18:15:41,690:INFO:Defining folds
+2023-03-31 18:15:41,690:INFO:Declaring metric variables
+2023-03-31 18:15:41,690:INFO:Importing untrained model
+2023-03-31 18:15:41,690:INFO:Declaring custom model
+2023-03-31 18:15:41,695:INFO:Light Gradient Boosting Machine Imported successfully
+2023-03-31 18:15:41,695:INFO:Starting cross validation
+2023-03-31 18:15:41,697:INFO:Cross validating with KFold(n_splits=15, random_state=None, shuffle=False), n_jobs=-1
+2023-03-31 18:15:53,752:INFO:Calculating mean and std
+2023-03-31 18:15:53,759:INFO:Creating metrics dataframe
+2023-03-31 18:15:53,761:INFO:Finalizing model
+2023-03-31 18:15:55,045:INFO:Uploading results into container
+2023-03-31 18:15:55,045:INFO:Uploading model into container now
+2023-03-31 18:15:55,045:INFO:_master_model_container: 27
+2023-03-31 18:15:55,045:INFO:_display_container: 8
+2023-03-31 18:15:55,045:INFO:LGBMRegressor(random_state=1807)
+2023-03-31 18:15:55,045:INFO:create_model() successfully completed......................................
+2023-03-31 18:15:55,175:INFO:SubProcess create_model() end ==================================
+2023-03-31 18:15:55,175:INFO:LGBMRegressor(random_state=1807) result for R2 is 0.8288
+2023-03-31 18:15:55,185:INFO:LGBMRegressor(bagging_fraction=0.4, bagging_freq=2, feature_fraction=1.0,
+              learning_rate=0.2, min_child_samples=86, min_split_gain=0.9,
+              n_estimators=270, num_leaves=20, random_state=1807, reg_alpha=0.4,
+              reg_lambda=0.3) result for R2 is 0.8213
+2023-03-31 18:15:55,185:INFO:LGBMRegressor(random_state=1807) is best model
+2023-03-31 18:15:55,185:INFO:choose_better completed
+2023-03-31 18:15:55,186:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2023-03-31 18:15:55,200:INFO:_master_model_container: 27
+2023-03-31 18:15:55,200:INFO:_display_container: 7
+2023-03-31 18:15:55,208:INFO:LGBMRegressor(random_state=1807)
+2023-03-31 18:15:55,208:INFO:tune_model() successfully completed......................................
+2023-03-31 18:19:24,855:INFO:Initializing finalize_model()
+2023-03-31 18:19:24,857:INFO:finalize_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2023-03-31 18:19:24,857:INFO:Finalizing LGBMRegressor(random_state=1807)
+2023-03-31 18:19:24,861:INFO:Initializing create_model()
+2023-03-31 18:19:24,861:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001F9E150E7D0>, estimator=LGBMRegressor(random_state=1807), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2023-03-31 18:19:24,861:INFO:Checking exceptions
+2023-03-31 18:19:24,866:INFO:Importing libraries
+2023-03-31 18:19:24,866:INFO:Copying training dataset
+2023-03-31 18:19:24,866:INFO:Defining folds
+2023-03-31 18:19:24,866:INFO:Declaring metric variables
+2023-03-31 18:19:24,866:INFO:Importing untrained model
+2023-03-31 18:19:24,866:INFO:Declaring custom model
+2023-03-31 18:19:24,870:INFO:Light Gradient Boosting Machine Imported successfully
+2023-03-31 18:19:24,870:INFO:Cross validation set to False
+2023-03-31 18:19:24,870:INFO:Fitting Model
+2023-03-31 18:19:25,460:INFO:Pipeline(memory=FastMemory(location=C:\Users\juud0\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['longitude', 'latitude',
+                                             'housing_median_age',
+                                             'total_rooms', 'total_bedrooms',
+                                             'population', 'households',
+                                             'median_income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=OneHotEncoder(cols=['ocean_proximity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LGBMRegressor(random_state=1807))])
+2023-03-31 18:19:25,462:INFO:create_model() successfully completed......................................
+2023-03-31 18:19:25,620:INFO:_master_model_container: 27
+2023-03-31 18:19:25,620:INFO:_display_container: 7
+2023-03-31 18:19:25,635:INFO:Pipeline(memory=FastMemory(location=C:\Users\juud0\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['longitude', 'latitude',
+                                             'housing_median_age',
+                                             'total_rooms', 'total_bedrooms',
+                                             'population', 'households',
+                                             'median_income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=OneHotEncoder(cols=['ocean_proximity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LGBMRegressor(random_state=1807))])
+2023-03-31 18:19:25,635:INFO:finalize_model() successfully completed......................................
