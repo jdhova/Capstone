@@ -2,8 +2,9 @@
 
 
 
-## Capstone Project: Bank Credit Card Detection model built with pycaret.
-## This project is aimed at minimizing How much banks and insurance company loose to credit card fraud.
+## Capstone Project: Property Valuation model built with pycaret.
+## This project is aimed at Predicting the value of property based on some dependent variables.
+## This project will also show the relationship and connection betwen property value with other dependent variables like location, median income, beach proximity etc
 
 ### CSV DATASET :
 
@@ -27,12 +28,12 @@
     However, this sector is also hit my lots of fraudulent  activities with losses hitting the Bank and Insurance companies. 
     This Model will be:
     
-    1.  Predicting if a credit card transaction is either fraudulent  or not based on transaction.
+    1.  Predicting the Value of a prperty based on depdent variables( regression: contineous value).
 
-    2.  Observing recurring fraudulent  transaction trends.
 
-    3.  Based on similar trends I will be creating a dashboard and solution 
-        which will minimize the obvious recurring fraudulent transactions.
+    2. Data Wrangling to create more and better meaning into the data 
+
+    3. Data Visualization to create indept analysis and data visal representation.
 
 
   
