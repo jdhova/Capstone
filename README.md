@@ -160,7 +160,7 @@ With this model we can create a visualization on what cities we properties shoul
 
 
 
-### VISUALIATION PROJECT AUTHOR: JUDE
+### PROJECT AUTHOR: JUDE
 ***
 
 ![ME](Img/code2.gif)
