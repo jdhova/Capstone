@@ -6,7 +6,7 @@
 
 
 
-#### Introduction
+### Introduction
 
 ***
 
@@ -19,7 +19,7 @@ California 1990 Dataset:  This data set shows the price or properties in Califor
 
 
 
-#### Objective and Approach
+### Objective and Approach
 
 ***
 
