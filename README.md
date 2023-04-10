@@ -55,6 +55,8 @@ With respect to cities, This Project will be recommending what kind of property 
 
 ### Research Question:
 
+***
+
 1.	What cities so the high income, Low income and middle-income earners reside in?
 2.	What kind of properties (number of bedrooms) do high income, middle income, and low-income earners, rent or purchase with regards to the cities. (Cities vary).
 3.	Which class has the lowest access to housing
@@ -65,6 +67,8 @@ With respect to cities, This Project will be recommending what kind of property 
 1. Based on model, which is more profitable building houses for middle-, low- or high-income earners.
 
 ### Procedure/ Scope:
+
+***
 
 #### Predictive Analysis
 
@@ -96,9 +100,9 @@ With respect to cities, This Project will be recommending what kind of property 
 
 3. Dashboard 3 showing analysis of 
 
-	- House value by proximity
-	- House value by Income range 
-  - House by income range, Cities and No of bedrooms (drill tru)
+- House value by proximity
+- House value by Income range 
+- House by income range, Cities and No of bedrooms (drill tru)
 
 
 
