@@ -8,7 +8,7 @@
 
 ### CSV DATASET :
 
-  [TRANSACTIONS_CSVFILE](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+  [PROPERTY_CSVFILE](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
 
   
 
