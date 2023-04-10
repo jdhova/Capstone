@@ -156,7 +156,7 @@ With this model we can create a visualization on what cities we properties shoul
 
 ***
 
-![Pandas](Img/pandas.png) ![Pcaret](Img/pycaret2.jpg) ![Pcaret](Img/SQL.jpg) ![Pcaret](Img/PowerBI.jpg)
+![Pandas](Img/pandas.jpg) ![Pcaret](Img/pycaret2.jpg) ![Pcaret](Img/SQL.jpg) ![Pcaret](Img/PowerBI.jpg)
 
 
 
