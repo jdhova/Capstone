@@ -26,17 +26,17 @@ California 1990 Dataset:  This data set shows the price or properties in Califor
 This project will be in three phases because it aims to display various skills learnt during the NSCC Business Intelligence analytics program:
 
 #### Phase 1 Predictive Analysis with pycaret: 
-***
+
 
 Pycaret will be used in predictive analysis where a continuous Value (Property Value) will be predicted based on dependent variables.
 
 #### Phase 2 Data Wrangling with SSIS (SQL): 
-***
+
 
 Data Wrangling will be used in getting insight into data and creating valuable information and meaning into the dataset.
 
 #### Visualization with (Power BI)
-***
+
 
 Power BI will be used in the data visuals, as this will create a better visualization and summary of the data set.
 
@@ -54,7 +54,7 @@ With respect to cities, This Project will be recommending what kind of property 
 
 
 ### Research Question:
-***
+
 1.	What cities so the high income, Low income and middle-income earners reside in?
 2.	What kind of properties (number of bedrooms) do high income, middle income, and low-income earners, rent or purchase with regards to the cities. (Cities vary).
 3.	Which class has the lowest access to housing
@@ -67,7 +67,7 @@ With respect to cities, This Project will be recommending what kind of property 
 ### Procedure/ Scope:
 
 #### Predictive Analysis
----
+
 1. Gather CSV files and data 
 2. EDA exploratory data Analysis 
 3. remove nulls and choose the exact data needed for data prep 
@@ -76,13 +76,13 @@ With respect to cities, This Project will be recommending what kind of property 
 
 
 #### Data Wrangling:
----
+
 1.	Convert Longitude and Latitude to actual cities.
 2.	Converted Bedroom size to specific number of bedrooms.
 3.	Converted income in usd to low-, middle- and High-income bracket.
 
 #### Visualization:
----
+
 1.	Dashboard 1 showing analysis of
 
 - House Value by cites 
@@ -117,7 +117,7 @@ The low-income earners have the lowest access to hosing per sq ft.
 
 ### Validation:
 
-***
+
  [fINDINGS_VALIDATION](https://www.rentcafe.com/cost-of-living-calculator/)
 
 
