@@ -156,14 +156,14 @@ With this model we can create a visualization on what cities we properties shoul
 
 ***
 
-![Pandas](img/pandas.png) ![Pcaret](img/pycaret2.jpg) ![Pcaret](img/SQL.jpg) ![Pcaret](img/PowerBI.jpg)
+![Pandas](Img/pandas.png) ![Pcaret](Img/pycaret2.jpg) ![Pcaret](Img/SQL.jpg) ![Pcaret](Img/PowerBI.jpg)
 
 
 
 ### VISUALIATION PROJECT AUTHOR: JUDE
 ***
 
-![ME](img/code2.gif)
+![ME](Img/code2.gif)
 
 
 
