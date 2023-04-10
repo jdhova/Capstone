@@ -122,7 +122,7 @@ The low-income earners have the lowest access to hosing per sq ft.
 ### Validation:
 
 
- [fINDINGS_VALIDATION](https://www.rentcafe.com/cost-of-living-calculator/)
+ [FINDINGS_VALIDATION](https://www.rentcafe.com/cost-of-living-calculator/)
 
 
 
@@ -150,6 +150,21 @@ With this model we can create a visualization on what cities we properties shoul
 #### JIRA AGILE METHODOLOGY :
 
   [JIRA-AGILE-WORKFLOW](https://juud.atlassian.net/jira/software/projects/CP/boards/2)
+
+
+  ### Libraries used :
+
+***
+
+![Pandas](img/pandas.png) ![Pcaret](img/pycaret2.jpg) ![Pcaret](img/SQL.jpg) ![Pcaret](img/PowerBI.jpg)
+
+
+
+### VISUALIATION PROJECT AUTHOR: JUDE
+***
+
+![ME](img/code2.gif)
+
 
 
 
