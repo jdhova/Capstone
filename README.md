@@ -118,6 +118,8 @@ On the other hand, Middle- and low-income earners in outs etch cities like Clark
 
 The low-income earners have the lowest access to hosing per sq ft.
 
+NOTE: info2.ipynb pipeline has a relaively better model over info.ipynb pipeline because it was cleaned from start and some outliars were removed. For this reason the model produced an improved perfomance.
+
 
 ### Validation:
 
@@ -144,6 +146,8 @@ With this model we can create a visualization on what cities we properties shoul
     Python version 3.10.9
     pycaret version 3.0
     Karnet enviroment pc310
+    
+    
 
 #### PROJECT-STATUS : IN PROGRESS
 
