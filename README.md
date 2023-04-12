@@ -120,6 +120,12 @@ The low-income earners have the lowest access to hosing per sq ft.
 
 NOTE: info2.ipynb pipeline has a relaively better model over info.ipynb pipeline because it was cleaned from start and some outliars were removed. For this reason the model produced an improved perfomance.
 
+Although info2 has a relately loawe R2 this model perfomed better on  unseen data compared to the info pililine model
+
+info MAE IS 0.42441860465116277 for outliars > 0.15 for unseen data and R2 is 0.8278 for lightgbm	Light Gradient Boosting Machine
+
+info2 MAE IS 0.0.3994878361075544 for outliars > 0.15 for unseen data and R2 is 0.7791  for lightgbm	Light Gradient Boosting Machine
+
 
 ### Validation:
 
