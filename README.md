@@ -110,13 +110,16 @@ With respect to cities, This Project will be recommending what kind of property 
 
 ***
 
- This project was able to discover the following trends to help answer the question:
+ This project was able to discover the following trends 
 
-Most High-income earners in San Francisco prefer to purchase since bed apartments for them sleeves while middle- and low-income earners tend to get bigger apartments because they share the apartment rather than live alone.
+Most High-income earners in San Francisco prefer to purchase SINGLE bed apartments for them sleeves while middle- and low-income earners tend to get bigger apartments because they share the apartment rather than live alone.
 
-On the other hand, Middle- and low-income earners in outs etch cities like Clarke County CA/NV and CA/OR prefer to rent one or two bedrooms because living alone is affordable, However the high-income earners do not rent or get accommodations in those counties.
+On the other hand, Middle- and low-income earners in outs etch cities like Clarke County CA/NV and CA/OR prefer to rent one or two bedrooms because living alone is affordable in outer cities cities, 
+
+However the high-income earners do not rent or get accommodations in those counties.
 
 The low-income earners have the lowest access to hosing per sq ft.
+
 
 NOTE: info2.ipynb pipeline has a relaively better model over info.ipynb pipeline because it was cleaned from start and some outliars were removed. For this reason the model produced an improved perfomance.
 
