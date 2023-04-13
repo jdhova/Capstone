@@ -114,9 +114,9 @@ With respect to cities, This Project will be recommending what kind of property 
 
 Most High-income earners in San Francisco prefer to purchase SINGLE bed apartments for them sleeves while middle- and low-income earners tend to get bigger apartments because they share the apartment rather than live alone.
 
-On the other hand, Middle- and low-income earners in outs etch cities like Clarke County CA/NV and CA/OR prefer to rent one or two bedrooms because living alone is affordable in outer cities cities, 
+On the other hand, Middle- and low-income earners in outs etch cities like Clarke County CA/NV and CA/OR prefer to rent one or two bedrooms because living alone is affordable in outskirts cities.
 
-However the high-income earners do not rent or get accommodations in those counties.
+However the high-income earners do not rent or get accommodations in those outskirts cities.
 
 The low-income earners have the lowest access to hosing per sq ft.
 
