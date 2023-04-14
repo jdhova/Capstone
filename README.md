@@ -125,15 +125,18 @@ NOTE: info2.ipynb pipeline has a relaively better model over info.ipynb pipeline
 
 Although info2 has a relately loawe R2 this model perfomed better on  unseen data compared to the info pililine model
 
-info MAE IS 0.42441860465116277 for outliars > 0.15 for unseen data and R2 is 0.8278 for lightgbm	Light Gradient Boosting Machine
+info MAE IS 0.42441860465116277 for outliars > 0.15 for unseen data and R2 is 0.8273 for lightgbm	Light Gradient Boosting Machine
 
-info2 MAE IS 0.0.3994878361075544 for outliars > 0.15 for unseen data and R2 is 0.7791  for lightgbm	Light Gradient Boosting Machine
+info2 MAE IS 0.36027713625866054  for outliars > 0.15 for unseen data and R2 is 0.7870  for lightgbm	Light Gradient Boosting Machine after tunning  with 15 folds
+
+
 
 
 ### Validation:
 
 
- [FINDINGS_VALIDATION](https://www.rentcafe.com/cost-of-living-calculator/)
+ [FINDINGS_VALIDATION](https://www.rentcafe.com/cost-of-living-calculator/)  
+ this can be used in valudating the power BI and checking the most afordable (RENT) cities in califonia
 
 
 
