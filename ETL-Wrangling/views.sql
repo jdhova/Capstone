@@ -1,32 +1,32 @@
 
 
-    select *
-    from [stg].[cl_housing_data] h
-    inner join [dim].[median_income] inc
-    on h.median_income = inc.median_income
-    inner join [dim].[No_Of_Bedrooms] bed
-    on h.total_bedrooms = bed.total_bedrooms
-    inner join  [dim].[ocean_proximity] oc
-    on h.ocean_proximity = oc.ocean_proximity
-    inner join [dim].[Cities] c
-    on h.longitude = c.longitude
+    -- select *
+    -- from [stg].[cl_housing_data] h
+    -- inner join [dim].[median_income] inc
+    -- on h.median_income = inc.median_income
+    -- inner join [dim].[No_Of_Bedrooms] bed
+    -- on h.total_bedrooms = bed.total_bedrooms
+    -- inner join  [dim].[ocean_proximity] oc
+    -- on h.ocean_proximity = oc.ocean_proximity
+    -- inner join [dim].[Cities] c
+    -- on h.longitude = c.longitude
 
 
 
-    select  inc.Median_Income_Range
-            ,bed.No_Of_Bedrooms
-            ,oc.home_proximity
-            ,c.Cities
-            ,h.median_house_value
-    from [stg].[cl_housing_data] h
-    inner join [dim].[median_income] inc
-    on h.median_income = inc.median_income
-    inner join [dim].[No_Of_Bedrooms] bed
-    on h.total_bedrooms = bed.total_bedrooms
-    inner join  [dim].[ocean_proximity] oc
-    on h.ocean_proximity = oc.ocean_proximity
-    inner join [dim].[Cities] c
-    on h.longitude = c.longitude
+    -- select  inc.Median_Income_Range
+    --         ,bed.No_Of_Bedrooms
+    --         ,oc.home_proximity
+    --         ,c.Cities
+    --         ,h.median_house_value
+    -- from [stg].[cl_housing_data] h
+    -- inner join [dim].[median_income] inc
+    -- on h.median_income = inc.median_income
+    -- inner join [dim].[No_Of_Bedrooms] bed
+    -- on h.total_bedrooms = bed.total_bedrooms
+    -- inner join  [dim].[ocean_proximity] oc
+    -- on h.ocean_proximity = oc.ocean_proximity
+    -- inner join [dim].[Cities] c
+    -- on h.longitude = c.longitude
 
 
 
